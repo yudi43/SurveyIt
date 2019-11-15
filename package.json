@@ -4,7 +4,8 @@
   "description": "Send bulk emails for surveys.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "engines": {
     "node": "8.1.1",
@@ -21,6 +22,9 @@
   },
   "homepage": "https://github.com/yudi43/SurveyIt#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
   }
 }
