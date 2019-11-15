@@ -1,0 +1,26 @@
+{
+  "name": "surveyit",
+  "version": "1.0.0",
+  "description": "Send bulk emails for surveys.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "8.1.1",
+    "npm": "5.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yudi43/SurveyIt.git"
+  },
+  "author": "Yudhishthir Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yudi43/SurveyIt/issues"
+  },
+  "homepage": "https://github.com/yudi43/SurveyIt#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
